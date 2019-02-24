@@ -1,0 +1,183 @@
+html, body {
+    background: #101010; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    color: #222;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+	font-size: 12pt;
+	line-height: 20pt;
+	margin-bottom: 30px;
+	color: #444;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.bungkus {
+	width: 75%;
+	background: #f3f3f3;
+	border-style: dashed;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 3px solid red;
+	background: whitesmoke;
+}
+
+#nama {
+	float: left;
+}
+
+#nama h1 {
+	font-size: 32pt;
+	font-family: 'Kelly Slab', cursive;
+	margin:0;
+	padding:0;
+}
+
+#nama h2 {
+	font-size: 20pt;
+	color: #777777;
+	margin:0;
+	padding:0;
+	font-family: 'Kelly Slab', cursive;
+	font-weight: lighter;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#foto {
+	width: 15%;
+	float: left;
+	margin-right: 15px;
+}
+
+#foto img {
+	width: 100%;
+	height: auto;
+	border-style: outset;
+	border-radius: 10px;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 10pt;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a{
+	color: #444; 
+	text-decoration: none;
+}
+
+#contactDetails ul li a:hover { 
+	color: red;
+}
+
+.icon{
+	height: 10px;
+}
+
+.category {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+.category:first-child {
+	border-top: 0;
+}
+
+.category:last-child {
+	padding: 20px 0 10px;
+}
+
+.Title {
+	float: left;
+	width: 25%;
+}
+
+.Content {
+	float: right;
+	width: 72.5%;
+}
+
+.Title h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-size: 25px;
+	color: red;
+}
+
+.Content h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-bottom: -12.5px;
+}
+
+.subDetails {
+	font-size: 12pt;
+	font-style: italic;
+	margin-bottom: -15px;
+}
+
+.skill{
+	display: inline;
+	margin: 20px;
+	margin-top: -10px;
+	float: right;
+	width: 65%;
+	background-color: #dddddd;
+	border-radius: 50px;
+}
+
+.s{
+	padding: 7.5px;
+	text-align: right;
+	color: whitesmoke;
+	background-color: red;
+	border-radius: 50px;
+}
+
+.time-management{
+	width: 90%;
+}
+
+.leadership{
+	width: 80%;
+}
+
+.photography{
+	width: 75%;
+}
+
+.back-end{
+	width: 70%;
+}
+
+footer{
+	text-align: center;
+	margin: 15px;
+	color: #666;
+}
+
+.hideme, .showme{
+    opacity:0;
+}
